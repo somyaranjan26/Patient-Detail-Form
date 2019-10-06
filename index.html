@@ -52,7 +52,7 @@
   <p> </p>
 
   <div class="container">
-      <form action="{{ url_for('predict')}}"method="post">
+      <form>
           <div class="form-row">
               <div class="col-md-4 mb-3">
                   <label for="validationServer013">First name</label>
@@ -102,7 +102,8 @@
               </div>
           </div>
       </div>
-
+	  </form>
+	  <form action="{{ url_for('predict')}}"method="post">
       <div class="form-row">
           <div class="col-md-6 mb-3">
               <label for="validationServer033">Gender</label>
